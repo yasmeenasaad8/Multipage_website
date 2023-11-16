@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+
+<title>My Website</title>
+
+</head>
+<body>
+
+<h1 id="Title">Hello World!</h1>
+
+<script>
+</script><h4>Variable</h4><script>
+const myNumber = 3;
+console.log(myNumber);
+</script><h4>Change text with javascript</h4><script>
+document.getElementById("Title").innerHTML = "Goodbye";
+</script><h4>Array</h4><script>
+var myArray = ["How are you?", 4, true];
+console.log(myArray[0]);
+console.log(myArray[1]);
+console.log(myArray[2]);
+var a = 1;
+var b = 2;
+var c = a + b;
+console.log(a)
+console.log(b)
+console.log(c)
+var Password = 1234;
+if (Password == 1234)
+
+{
+console.log("The number is correct.");
+}
+</script>
+<h4> Array</h4>
+<script>
+var anArray = ["A", "B", "C"];
+for (var i = 0; i < anArray.length; i++)
+{
+console.log("The member of anArray in index " + i + " is " + anArray[i]);
+}
+</script>
+<h4>Object </h4>
+<script>
+var person = {
+firstName : "Yasmeen",
+lastName : "Al-Asa'ad",
+age : 15,
+employed : false
+}
+console.log(person.firstName);
+console.log(person.lastName);
+console.log(person.age);
+console.log(person.employed);
+</script>
+<h4>Alert</h4>
+<script>
+alert("Hello");
+var callback = function() {
+console.log("Done!");
+}
+
+setTimeout(callback, 5000);
+const greet = (name) => { return "Hello " + name + "!"; }
+
+console.log(greet("Yasmeen"));
+</script>
+</body>
+
+</html>
